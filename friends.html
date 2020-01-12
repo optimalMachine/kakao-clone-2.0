@@ -28,25 +28,66 @@
             <h1 class='header_title'>Friends</h1>
         </div>
         <div class='header__header-column'>
-            <span class='header__icon'></span>
+            <span class='header__icon'>
                 <i class="fas fa-search"></i>
-            <span class='header__icon'></span>
+            </span>
+            <span class='header__icon'>
+                <i class="fas fa-qrcode"></i>
+            </span>
+            <span class='header__icon'>
+            <a href='settings.html'>
                 <i class="fas fa-cog"></i>
+            </a>
+            </span>
         </div>
-    </header>
-    <main class='friends'>
-        <ul class = 'friends__lists'>
-            <li class= 'friends__friend friend friend--lg'>
-                <img src='./images/avatar.jpg' class='g-avatar'>
-                <div class='friend__content'>
-                    <span class='friend__name'>
-                    </span>
-                </div>
-
-            </li>
-
-        </ul>
-
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="./images/avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Jiuk Choi
+              </span>
+              <span class="friend__status">github.com/optimalMachine
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Plus Friend
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Jiuk Choi
+              </span>
+              <span class="friend__status">github.com/optimalMachine
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>Jiuk Choi's friend 
+              </span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
     </main>
 
     <nav class='nav'>
