@@ -18,4 +18,9 @@
 
 .header .header__header-column{
     display: flex;
+    align-items: center;
+}
+.header .header__back-btn{
+    font-size: 14px;
+    margin-right: 20px;
 }
