@@ -2,6 +2,7 @@
 @import 'status-bar.css';
 @import 'header.css';
 @import 'nav-bar.css';
+@import 'friend.css';
 @import 'friends.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
@@ -14,6 +15,7 @@ body {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 * {
